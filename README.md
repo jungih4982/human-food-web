@@ -40,3 +40,19 @@ pnpm dev
 ---
 
 ## 3. 프로젝트 디렉토리 구조 (Directory Structure)
+
+src/
+├── app/
+│   ├── layout.tsx         # 공통 레이아웃 및 폰트
+│   ├── globals.css        # Tailwind v4 스타일
+│   ├── page.tsx           # 메인 홈 화면
+│   ├── about/page.tsx     # 회사 소개
+│   ├── services/page.tsx  # 3대 핵심 서비스 상세
+│   ├── portfolio/page.tsx # 현장 갤러리 및 후기
+│   └── quote/page.tsx     # 1분 간편 견적 신청
+├── components/
+│   ├── common/            # GNB(Navbar), Footer
+│   ├── home/              # HeroSection, ServiceGrid
+│   └── forms/             # 견적 폼 관련 컴포넌트
+├── lib/                   # 유틸리티 및 DB 클라이언트
+└── types/                 # 공통 타입 정의
