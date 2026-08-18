@@ -35,12 +35,12 @@ pnpm install
 # 로컬 개발 서버 실행 (localhost:3000)
 pnpm dev
 
-```
-
+``
 ---
 
 ## 3. 프로젝트 디렉토리 구조 (Directory Structure)
 
+```
 src/
 ├── app/
 │   ├── layout.tsx         # 공통 레이아웃 및 폰트
@@ -56,3 +56,4 @@ src/
 │   └── forms/             # 견적 폼 관련 컴포넌트
 ├── lib/                   # 유틸리티 및 DB 클라이언트
 └── types/                 # 공통 타입 정의
+```
