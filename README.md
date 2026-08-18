@@ -34,3 +34,8 @@ pnpm install
 
 # 로컬 개발 서버 실행 (localhost:3000)
 pnpm dev
+
+
+---
+
+## 3. 프로젝트
