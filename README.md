@@ -1,18 +1,19 @@
+cat << 'EOF' > README.md
 # 휴먼푸드(Human Food) 공식 웹페이지 프로젝트
 
-SNS 연동 기반 모델하우스·기업 케이터링, 맞춤 도시락, 호텔 조식 수주 채널 공식 웹페이지입니다[span_0](start_span)[span_0](end_span).
+SNS 연동 기반 모델하우스·기업 케이터링, 맞춤 도시락, 호텔 조식 수주 웹페이지 제작.
 
 ---
 
 ## 1. 기술 스택 (Tech Stack)
 
-* **Framework:** Next.js 16+ (App Router)[span_1](start_span)[span_1](end_span)
-* **Language:** TypeScript[span_2](start_span)[span_2](end_span)
-* **Styling:** Tailwind CSS v4[span_3](start_span)[span_3](end_span)
+* **Framework:** Next.js 16+ (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS v4
 * **Icons:** Lucide React (브랜드 아이콘은 인라인 SVG 사용)
 * **Package Manager:** pnpm
-* **Deployment:** Vercel[span_4](start_span)[span_4](end_span)
-* **Database & Notification (예정):** Supabase, Slack/알림톡 Webhook[span_5](start_span)[span_5](end_span)
+* **Deployment:** Vercel
+* **Database & Notification (예정):** Supabase, Slack/알림톡 Webhook
 
 ---
 
