@@ -36,24 +36,3 @@ pnpm install
 pnpm dev
 
 ---
-
-## 3. 프로젝트 디렉토리 구조 (Directory Structure)
-
-src/
-├── app/
-│   ├── layout.tsx              # 글로벌 레이아웃 (헤더, 폰트, 메타데이터)
-│   ├── globals.css             # Tailwind v4 설정 및 글로벌 스타일
-│   ├── page.tsx                # 메인 홈 (히어로 배너, 3대 솔루션)
-│   ├── about/page.tsx          # 회사 소개 및 위생/품질 철학
-│   ├── services/page.tsx       # 3대 핵심 서비스 상세 안내
-│   ├── portfolio/page.tsx      # 현장 갤러리 및 SNS 연동 섹션
-│   └── quote/page.tsx          # 1분 간편 견적 신청 페이지
-├── components/
-│   ├── common/                 # GNB(Navbar), 푸터 등 공통 컴포넌트
-│   ├── home/                   # 메인 전용 섹션 컴포넌트 (Hero, ServiceGrid)
-│   └── forms/                  # 견적 폼 및 입력 필드 공통 컴포넌트
-├── lib/                        # API 유틸리티, DB 클라이언트 등
-└── types/                      # 공통 인터페이스 및 데이터 타입 정의
-
-
----
